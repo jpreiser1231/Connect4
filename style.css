@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 5px;
+    background-color: skyblue;
+    border-radius:15px;
+    margin-top:100px
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin:5px;
+    height:25px;
+}
+#header
+{
+    text-align: center;
+}
+#player1
+{
+    text-align: left;
+}
+#player2
+{
+    text-align:right;
+}
