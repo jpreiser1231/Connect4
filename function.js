@@ -290,7 +290,7 @@ function reset()
     }
     // Reset the turn styling
     document.getElementById("player1").style.backgroundColor = "yellow";
-    document.getElementById("player2")
+    document.getElementById("player2").style.backgroundColor = "white";
 
 
     // Reset win condition message
